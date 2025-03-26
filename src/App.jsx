@@ -28,7 +28,7 @@ function App() {
       setTasks(data);
     };
     // FAKE API FOR TESTING
-    fetchTasks();
+    //fetchTasks();
   }, []);
 
   function onTaskClick(taskId) {
